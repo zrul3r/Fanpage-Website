@@ -1,0 +1,138 @@
+#Home{
+	height: 50px;
+	border-color: #666;
+}
+#Home ul {
+	margin: 0;
+	padding: 0;
+}
+#Home li {
+	list-style-type: none;
+	text-align: center;
+	line-height: 25px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 17px;
+}
+#Home li a{
+	text-decoration: underline;
+	color: black;
+}
+#Home li:Hover {
+	background-color: lightgray;
+}
+
+#Players{
+	height: 100px;
+	border-color: #666;
+}
+#Players ul {
+	margin: 0;
+	padding: 0;
+}
+#Players li {
+	list-style-type: none;
+	text-align: center;
+	line-height: 25px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 17px;
+}
+#Players li a{
+	text-decoration: underline;
+	color: black;
+}
+#Players li:Hover {
+	background-color: lightgray;
+}
+
+#Signup{
+	height: 100px;
+	border-color: #666;
+}
+#Signup ul {
+	margin: 0;
+	padding: 0;
+}
+#Signup li {
+	list-style-type: none;
+	text-align: center;
+	line-height: 25px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 17px;
+}
+#Signup li a{
+	text-decoration: underline;
+	color: black;
+}
+#Signup li:Hover {
+	background-color: lightgray;
+}
+
+#HOF{
+	height: 100px;
+	border-color: #666;
+}
+#HOF ul {
+	margin: 0;
+	padding: 0;
+}
+#HOF li {
+	list-style-type: none;
+	text-align: center;
+	line-height: 25px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 17px;
+}
+#HOF li a{
+	text-decoration: underline;
+	color: black;
+}
+#HOF li:Hover {
+	background-color: lightgray;
+}
+
+#Suits{
+	height: 100px;
+	border-color: #666;
+}
+#Suits ul {
+	margin: 0;
+	padding: 0;
+}
+#Suits li {
+	list-style-type: none;
+	text-align: center;
+	line-height: 25px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 17px;
+}
+#Suits li a{
+	text-decoration: underline;
+	color: black;
+}
+#Suits li:Hover {
+	background-color: lightgray;
+}
+
+#History{
+	height: 100px;
+	border-color: #666;
+}
+#History ul {
+	margin: 0;
+	padding: 0;
+}
+#History li {
+	list-style-type: none;
+	text-align: center;
+	line-height: 25px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 17px;
+}
+#History li a{
+	text-decoration: underline;
+	color: black;
+}
+#History li:Hover {
+	background-color: lightgray;
+}
+
