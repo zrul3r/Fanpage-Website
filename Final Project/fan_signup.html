@@ -1,0 +1,46 @@
+<html>
+<script type = "text/javascript">
+
+function validate(){
+	if( document.myForm.first_name.value == "" ) {
+		alert( "Please provide your first name!" );
+        document.myForm.first_name.focus() ;
+        return false;
+	}
+	if( document.myForm.last_name.value == "" ) {
+        alert( "Please provide your last name!" );
+        document.myForm.last_name.focus() ;
+        return false;
+	}
+	if( document.myForm.zip.value == "" || isNaN( document.myForm.Zip.value ) || document.myForm.Zip.value.length != 5 ) {
+        alert( "Please provide a zip code in the format #####" );
+        document.myForm.zip.focus() ;
+        return false;
+    }
+	return(true);
+}
+
+</script>
+
+<body>
+<form action="cgi-bin/signup.py" action = "" id = "myForm" method="get" onsubmit = "return(validate());">
+
+First Name: <input type="text" name="first_name">  <br />
+
+Last Name: <input type="text" name="last_name" /> <br />
+
+Zip Code: <input type="text" name="zip" />
+<br />
+<fieldset>
+<legend>Enrolled Classes</legend>
+<input type = "checkbox" name = "math" value = "on" /> Math
+<input type = "checkbox" name = "physics" value = "on" /> Physics
+<input type = "checkbox" name = "sociology" value = "on" /> Sociology
+<input type = "checkbox" name = "engineering" value = "on" /> Engineering
+<input type = "checkbox" name = "english" value = "on" /> English
+</fieldset>
+
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
