@@ -1,0 +1,297 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1.2em;
+}
+
+ol { 
+	padding-left: 1.4em;
+}
+
+ul {
+	padding-left: 1.4em;
+	list-style: none;
+}
+
+html {
+	background-color: rgb(26,35,67);
+}
+
+body {
+	background-color: rgb(150,150,150);
+	border: solid;
+	box-shadow: 1px 1px 5px 5px #343434;
+	width: 800px;
+	height: auto;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 1px;
+	color: white;
+	text-transform: uppercase;
+	background-color: rgb(26,35,67);
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: 0;
+	margin-bottom: 20px;
+	line-height: 36px;
+}
+
+#Container {
+	width: 800px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#Nav {
+	width: 800px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#Home {
+	width: 133px;
+	height: 50px;
+	border-style: solid;
+	float: left;
+}
+
+#Players {
+	width: 133px;
+	height: 50px;
+	border-style: solid;
+	float: left;
+}
+
+#Signup {
+	width: 134px;
+	height: 50px;
+	border-style: solid;
+	float: left;
+}
+
+#HOF {
+	width: 133px;
+	height: 50px;
+	border-style: solid;
+	float: left;
+}
+
+#Suits {
+	width: 133px;
+	height: 50px;
+	border-style: solid;
+	float: left;
+}
+
+#History {
+	width: 134px;
+	height: 50px;
+	border-style: solid;
+	float: left;
+}
+
+#sidebar {
+	width: 400px;
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: -65px;
+	padding: 20px;
+	border: 1px dotted rgb(26,35,67);
+	border-top: 25px solid gray;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+}
+#Container table {
+	margin: 0 auto;
+}
+#Judge {
+	width: 200px;
+	float: left;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: -500px;
+	padding: 20px;
+	border: 1px solid rgb(26,35,67);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+}
+#Stanton {
+	width: 200px;
+	float: right;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: -500px;
+	padding: 20px;
+	border: 1px solid rgb(26,35,67);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+}
+#Cole {
+	width: 200px;
+	float: right;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: -200px;
+	padding: 20px;
+	border: 1px solid rgb(26,35,67);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+}
+#Chapman {
+	width: 200px;
+	float: left;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: -250px;
+	padding: 20px;
+	border: 1px solid rgb(26,35,67);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+}
+#Ruth {
+	width: 150px;
+	float: left;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: -500px;
+	padding: 20px;
+	border: 1px solid rgb(26,35,67);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+}
+#Jeter {
+	width: 150px;
+	float: right;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: -500px;
+	padding: 20px;
+	border: 1px solid rgb(26,35,67);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+}
+#Berra {
+	width: 150px;
+	float: left;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: -250px;
+	padding: 20px;
+	border: 1px solid rgb(26,35,67);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+}
+#Gehrig {
+	width: 150px;
+	float: right;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: -250px;
+	padding: 20px;
+	border: 1px solid rgb(26,35,67);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+}
+#Ford {
+	width: 150px;
+	float: left;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: -600px;
+	padding: 20px;
+	border: 1px solid rgb(26,35,67);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+}
+#Jackson {
+	width: 150px;
+	float: left;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: -350px;
+	padding: 20px;
+	border: 1px solid rgb(26,35,67);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+}
+#Matsui {
+	width: 200px;
+	float: right;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: -600px;
+	padding: 20px;
+	border: 1px solid rgb(26,35,67);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+}
+#Rivera {
+	width: 150px;
+	float: right;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: -250px;
+	padding: 20px;
+	border: 1px solid rgb(26,35,67);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+}
